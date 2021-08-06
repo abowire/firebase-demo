@@ -1,0 +1,21 @@
+{
+  "name": "@abowire/firebase-auth-demo",
+  "version": "1.0.0",
+  "description": "Example of how to connect Firebase Auth with Abowire",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Abowire GmbH <tech@abowire.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.17.1",
+    "express-session": "1.17.2",
+    "firebase": "8.9.0",
+    "firebase-admin": "9.11.0",
+    "got": "11.8.2",
+    "passport": "0.4.1",
+    "passport-oauth": "1.0.0"
+  }
+}
